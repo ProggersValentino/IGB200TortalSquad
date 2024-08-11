@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 
-[CreateAssetMenu(menuName = "Events/String Event")]
+[CreateAssetMenu(menuName = "SceneManagement/New Scene Change")]
 public class SceneSO : ScriptableObject
 {
 

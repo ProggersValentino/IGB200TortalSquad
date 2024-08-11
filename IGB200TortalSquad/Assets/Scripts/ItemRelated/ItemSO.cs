@@ -10,7 +10,7 @@ public class ItemSO : ScriptableObject, IItem
 
     public enum ItemType
     {
-        Clothing, Furniture, Keys
+        Clothing, Furniture, Keys, Action
     }
 
     [SerializeField] private ItemType itemType;
