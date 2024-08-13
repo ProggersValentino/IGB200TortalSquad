@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class MicroTask : MonoBehaviour
 {
-    public float totalTimeToComplete; 
+    public float totalTimeToComplete;
+
+    public float difficultyDecrease; //to determine how much difficulty that will be taken off when completing this task
     // Start is called before the first frame update
     void Start()
     {
