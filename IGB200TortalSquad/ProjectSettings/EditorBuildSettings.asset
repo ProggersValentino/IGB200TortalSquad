@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGame/TurtlePerspective.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainGame/RangerPerspective.unity
+    guid: f372b156821db6c4783d5234b344c38d
   m_configObjects: {}
