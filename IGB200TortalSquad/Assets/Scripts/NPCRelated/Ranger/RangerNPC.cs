@@ -53,6 +53,10 @@ public class RangerNPC : MonoBehaviour, IInteractable
         Debug.LogWarning(npcBrain.isStopped); 
     }
 
+    /// <summary>
+    /// we have clicked on a valid task and are doing it now
+    /// </summary>
+    /// <returns></returns>
     IEnumerator DoTask()
     {
         while (!AtDestination(currentTask.transform.position, transform.position))
@@ -61,9 +65,9 @@ public class RangerNPC : MonoBehaviour, IInteractable
             yield return new WaitForEndOfFrame();
         }
 
-        yield return new WaitForSeconds(currentTask.totalTimeToComplete);
+        yield return new WaitForSeconds(currentTask.totalTimeToComplete); //time it takes to do task
         
-        Destroy(currentTask.gameObject); //TODO make a function to process the task completion
+        currentTask.ProcessTaskCompletion(); //completing the task
         StopCoroutine(DoTask());
     }
 

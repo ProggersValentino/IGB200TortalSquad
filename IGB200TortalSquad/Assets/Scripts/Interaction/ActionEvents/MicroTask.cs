@@ -1,12 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class MicroTask : MonoBehaviour
 {
     public float totalTimeToComplete;
 
     public float difficultyDecrease; //to determine how much difficulty that will be taken off when completing this task
+
+    //this gets setup in the game manager
+    public Action<float> ShiftDifficultyLevel; //when the task is completed we invoke this action to process how much the diffculty level should fall
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +34,10 @@ public class MicroTask : MonoBehaviour
     /// </summary>
     public void ProcessTaskCompletion()
     {
-        //decrease difficulty
-        
+        //decrease the difficulty level
+        ShiftDifficultyLevel(difficultyDecrease);
+
         //destroy object 
+        Destroy(gameObject);
     }
 }
