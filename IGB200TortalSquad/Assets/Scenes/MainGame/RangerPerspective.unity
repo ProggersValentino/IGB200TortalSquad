@@ -313,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 199277927}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.9644642, y: -5.4252224, z: -0.72277355}
+  m_LocalPosition: {x: 1.12, y: 1.34, z: 1.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0, z: -10}
+  m_FollowOffset: {x: -17, y: 17, z: -2.92}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -2016,17 +2016,17 @@ PrefabInstance:
     - target: {fileID: 600260291563878932, guid: 792b5d5401f04f146950448fe5edb722,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.5
+      value: 20.31
       objectReference: {fileID: 0}
     - target: {fileID: 600260291563878932, guid: 792b5d5401f04f146950448fe5edb722,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.74
+      value: 0.62
       objectReference: {fileID: 0}
     - target: {fileID: 600260291563878932, guid: 792b5d5401f04f146950448fe5edb722,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.93
+      value: 3.78
       objectReference: {fileID: 0}
     - target: {fileID: 600260291563878932, guid: 792b5d5401f04f146950448fe5edb722,
         type: 3}

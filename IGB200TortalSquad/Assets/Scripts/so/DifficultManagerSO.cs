@@ -15,13 +15,13 @@ public class DifficultManagerSO : ScriptableObject
 {
     [SerializeField] private float difficultyMeter;
     
-    public float _difficultyMeter
-    {
-        get { return difficultyMeter; }
-        set { difficultyMeter = value ; }
-    }
-
-    public UnityEvent ChangeDiffBar;
+   public float _difficultyMeter
+       {
+           get { return difficultyMeter; }
+           set { difficultyMeter = value ; }
+       }
+ 
+    //public UnityEvent ChangeDiffBar;
 
     /// <summary>
     /// to calculate the new difficulty metre value

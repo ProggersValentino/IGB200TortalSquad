@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void SummonMicroTasks(GameObject pref)
     {
-        GameObject newMicroTask = Instantiate(pref, new Vector3(19.5f, 0.74000001f, 1.92999995f), Quaternion.identity);
+        GameObject newMicroTask = Instantiate(pref, new Vector3(19.5f, 0.74000001f, 1.92999995f), pref.transform.rotation);
 
         MicroTask summonedMTask = newMicroTask.GetComponent<MicroTask>();
         summonedMTask.ShiftDifficultyLevel += difficultyLevel.CalculateDifference;
