@@ -1,30 +1,52 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class TurtleRaceGameMan : MonoBehaviour
 {
     public DifficultManagerSO difficultyLevel;
 
     public GameObject obstaclePref;
+   
+    //racer related
+    public GameObject racer;
+    public Transform goal;
+    
+    public List<Transform> startPos;
+        
     public int obstacleCount;
+
+    public List<GameObject> racers;  
 
     [Range(0, 3)] public float multiplierEnhancer = 1;
 
     public Transform startSpawnPoint;
     public Transform endSpawmPoint;
+
+    public RaceTimer RT;
+    public Finishline FL;
     
+    //results related
+    public GameObject endUI;
+    public TextMeshProUGUI timerResult;
+    public TextMeshProUGUI placeResult;
+
+    private void OnEnable()
+    {
+        FL.processEnd.AddListener(ProcessEndOfMinigame);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        // mapVertices = raceMap.GetComponent<MeshFilter>().mesh.vertices.Distinct().ToList();
-        //
-        // Debug.LogWarning(FindMinMaxSpawnPoint(false, mapVertices));
-        // Debug.LogWarning(FindMinMaxSpawnPoint(true, mapVertices));
-        
         SummonObstacles(obstaclePref);
+        SummonRacers(racer);
+        TimerEventManager.OnTimerStart();
+        //Debug.LogWarning(playerPlacement);
     }
 
     // Update is called once per frame
@@ -60,12 +82,36 @@ public class TurtleRaceGameMan : MonoBehaviour
         }
     }
 
+    public void SummonRacers(GameObject racerPref)
+    {
+        foreach (Transform startingPos in startPos)
+        {
+            GameObject racer = Instantiate(racerPref, startingPos.transform.position, racerPref.transform.rotation);
+
+            RacerAI AI = racer.GetComponent<RacerAI>();
+
+            AI.SetAIDestination(goal);
+        }
+    }
+    
+    
     /// <summary>
     /// when the player crosses the finishline we want to process the end of the game
     /// like score and rewards etc
     /// </summary>
     public void ProcessEndOfMinigame()
     {
+        TimerEventManager.OnTimerStop();
+        timerResult.text = RT.timerText.text;
+        placeResult.text = FL.FindPlayerPlacement().ToString();
+        endUI.SetActive(true);
+        ChangeTimeScale(0f);
         
+        //TODO: do a reward system that gives the player a reward and adds it to inventory
+    }
+
+    public void ChangeTimeScale(float value)
+    {
+        Time.timeScale = value;
     }
 }

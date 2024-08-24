@@ -67,8 +67,8 @@ public class MiniGamePlayer : MonoBehaviour
 
         if (other.TryGetComponent(out Finishline finish))
         {
-            finish.AddToFinishedRacers(gameObject);
-            finish.processEnd.Invoke();
+            // finish.AddToFinishedRacers(gameObject);
+            finish.processEnd?.Invoke();
         }
         
     }
