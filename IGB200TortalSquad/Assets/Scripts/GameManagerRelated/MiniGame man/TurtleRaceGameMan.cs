@@ -8,8 +8,6 @@ using Random = UnityEngine.Random;
 
 public class TurtleRaceGameMan : MonoBehaviour
 {
-    public DifficultManagerSO difficultyLevel;
-
     public GameObject obstaclePref;
    
     //racer related
@@ -35,6 +33,8 @@ public class TurtleRaceGameMan : MonoBehaviour
     public TextMeshProUGUI timerResult;
     public TextMeshProUGUI placeResult;
 
+    //private SQLiteTest yes;
+    
     private void OnEnable()
     {
         FL.processEnd.AddListener(ProcessEndOfMinigame);
@@ -46,6 +46,12 @@ public class TurtleRaceGameMan : MonoBehaviour
         SummonObstacles(obstaclePref);
         SummonRacers(racer);
         TimerEventManager.OnTimerStart();
+        
+        
+        //yes = racer.AddComponent<SQLiteTest>();
+
+        SQLiteTest.pullFromDataBase("SELECT * FROM Stocks");
+        
         //Debug.LogWarning(playerPlacement);
     }
 
@@ -61,7 +67,9 @@ public class TurtleRaceGameMan : MonoBehaviour
     /// <returns></returns>
     public int DetermineObstacleCount()
     {
-        return (int)((obstacleCount * difficultyLevel._difficultyMeter) * multiplierEnhancer) / 10; //divide by 10 to make it not so crazy
+        //we pull right from the database the difficulty value 
+        Debug.LogWarning(SQLiteTest.PullDifficultyLevel(1));
+        return (int)((obstacleCount * SQLiteTest.PullDifficultyLevel(1)) * multiplierEnhancer) / 10; //divide by 10 to make it not so crazy
     }
     
     /// <summary>

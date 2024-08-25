@@ -1165,6 +1165,7 @@ GameObject:
   - component: {fileID: 889750894}
   - component: {fileID: 889750895}
   - component: {fileID: 889750896}
+  - component: {fileID: 889750897}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1237,6 +1238,18 @@ MonoBehaviour:
   timerText: {fileID: 81500918}
   timerType: 1
   timerToDisplay: 0
+--- !u!114 &889750897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889750893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1845e36dcb889419fabc091d4e238c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3300,11 +3313,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5447678592494605218, guid: 059d4e32477024c478e1a504978fe684,
-        type: 3}
-      propertyPath: goal
-      value: 
-      objectReference: {fileID: 1659075937}
     - target: {fileID: 8779918376918156908, guid: 059d4e32477024c478e1a504978fe684,
         type: 3}
       propertyPath: m_Name

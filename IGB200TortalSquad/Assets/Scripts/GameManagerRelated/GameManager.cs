@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public DifficultManagerSO difficultyLevel;
-
     public Image difficultyBarUI;
     
     public GameObject microTaskPref;
@@ -36,7 +34,7 @@ public class GameManager : MonoBehaviour
         GameObject newMicroTask = Instantiate(pref, new Vector3(19.5f, 0.74000001f, 1.92999995f), pref.transform.rotation);
 
         MicroTask summonedMTask = newMicroTask.GetComponent<MicroTask>();
-        summonedMTask.ShiftDifficultyLevel += difficultyLevel.CalculateDifference;
+        //summonedMTask.ShiftDifficultyLevel += difficultyLevel.CalculateDifference;
     }
     
 }

@@ -35,7 +35,12 @@ public class MicroTask : MonoBehaviour
     public void ProcessTaskCompletion()
     {
         //decrease the difficulty level
-        ShiftDifficultyLevel(difficultyDecrease);
+
+        float newDifLevel = SQLiteTest.PullDifficultyLevel(1) + difficultyDecrease;
+        
+        Debug.LogWarning($"our new diff level is {newDifLevel}");
+        
+        SQLiteTest.UpdateDifficultyLevel(1, newDifLevel);
 
         //destroy object 
         Destroy(gameObject);
