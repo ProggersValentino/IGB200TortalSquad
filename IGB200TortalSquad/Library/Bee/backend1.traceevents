@@ -1,546 +1,477 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1725015524451666, "dur":93, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015524451812, "dur":2643, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015524454463, "dur":794, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015524455321, "dur":476, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015524458471, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524458617, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524459101, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524460170, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524460480, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524460823, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524460889, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524460992, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524461052, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524461140, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524461261, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":0, "ts":1725015524455819, "dur":6822, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015524462643, "dur":3176036, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015527638680, "dur":373, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015527639188, "dur":3433, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1725015524456230, "dur":6534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524462764, "dur":5298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524468064, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1725015524468191, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524518537, "dur":8523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1725015524527134, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524531485, "dur":139, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524527270, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524531717, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524532015, "dur":13885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524545966, "dur":1918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524547948, "dur":46879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524594887, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524595012, "dur":8262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524603336, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524603403, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524603464, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524608736, "dur":5931, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524614705, "dur":18913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524633672, "dur":609, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524634292, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524634353, "dur":59312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524693732, "dur":1862, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524695625, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524699533, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524702866, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524704220, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524705438, "dur":20017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1725015524725541, "dur":12543, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524738101, "dur":19326, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524757433, "dur":4852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1725015524762412, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1725015524766747, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524786168, "dur":124, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524767132, "dur":19175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1725015524786409, "dur":5323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524791872, "dur":12584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level5" }}
-,{ "pid":12345, "tid":1, "ts":1725015524804527, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524804748, "dur":23681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level3.resS" }}
-,{ "pid":12345, "tid":1, "ts":1725015524828491, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1725015524828670, "dur":8683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level10" }}
-,{ "pid":12345, "tid":1, "ts":1725015524837430, "dur":2801250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1725015524455772, "dur":6882, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1725015524462658, "dur":5395, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1725015524468079, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1725015524468198, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1725015524468344, "dur":1060, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1725015524469564, "dur":824, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524470392, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524470688, "dur":710, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524471400, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524471716, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524471799, "dur":401, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524472202, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Gilzoide.SqliteNet.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524472360, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524472431, "dur":962, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524473394, "dur":1097, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524474493, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524474592, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524474678, "dur":1140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524475820, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524476254, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524476344, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524476442, "dur":753, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1725015524468197, "dur":9163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1725015524477735, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1725015524478480, "dur":454080, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1725015524938247, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1725015524938247, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1725015524938409, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1725015524939414, "dur":2699269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524455806, "dur":6855, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524462887, "dur":1059, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
-,{ "pid":12345, "tid":3, "ts":1725015524462665, "dur":2002, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524464667, "dur":3707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524468385, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1725015524468376, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1725015524468468, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524547199, "dur":255, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524547472, "dur":63643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1725015524612319, "dur":2460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524781873, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524614804, "dur":167178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1725015524782091, "dur":3399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524785502, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524785565, "dur":18943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level8.resS" }}
-,{ "pid":12345, "tid":3, "ts":1725015524804587, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1725015524804963, "dur":22448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level3" }}
-,{ "pid":12345, "tid":3, "ts":1725015524827534, "dur":11037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1725015524838679, "dur":2799998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524455868, "dur":6812, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524463786, "dur":500, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1725015524462683, "dur":1839, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524464522, "dur":3964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524468492, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1725015524468486, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1725015524587914, "dur":14961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1725015524602951, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524603053, "dur":14749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1725015524617878, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524618178, "dur":437, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524618620, "dur":25651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1725015524644347, "dur":461, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524644833, "dur":80852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1725015524725746, "dur":1799, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524727564, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524755550, "dur":14033, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524727627, "dur":54399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1725015524782162, "dur":3327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524785503, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524785577, "dur":43827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level8" }}
-,{ "pid":12345, "tid":4, "ts":1725015524829687, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1725015524829764, "dur":23793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1725015524853631, "dur":2785068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524455900, "dur":6787, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524462690, "dur":877, "ph":"X", "name": "File",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1725015524462690, "dur":1917, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524464607, "dur":3689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524468298, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1725015524533407, "dur":114, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524537835, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1725015524540255, "dur":510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524540775, "dur":342, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524558101, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524541135, "dur":17052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1725015524558941, "dur":148999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1725015524708090, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1725015524710240, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524713998, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524710337, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1725015524714275, "dur":7953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":5, "ts":1725015524722292, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524751373, "dur":12537, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524722587, "dur":41340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":5, "ts":1725015524764147, "dur":255, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524764410, "dur":18244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1725015524782761, "dur":2731, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524785503, "dur":147, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524785657, "dur":43264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level7.resS" }}
-,{ "pid":12345, "tid":5, "ts":1725015524829011, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1725015524829242, "dur":15270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1725015524844589, "dur":2794079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524455932, "dur":6762, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524462697, "dur":1002, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524462697, "dur":1960, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524464657, "dur":3736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524468395, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1725015524542364, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1725015524545423, "dur":2362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524547852, "dur":11010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524560984, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524559017, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524561160, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524561231, "dur":11684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524573040, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524575010, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524578355, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524581790, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524581870, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524584441, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524586931, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524588984, "dur":8734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524597786, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524598198, "dur":5364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524603632, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524603711, "dur":6509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524610305, "dur":4301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524614633, "dur":24861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524639553, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524639888, "dur":81559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1725015524736977, "dur":19948, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1725015524721564, "dur":35374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":6, "ts":1725015524757102, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets10.assets" }}
-,{ "pid":12345, "tid":6, "ts":1725015524759246, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1725015524760865, "dur":84798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1725015524845725, "dur":2793048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1725015524455960, "dur":6740, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1725015524462703, "dur":1520, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1725015524464223, "dur":3836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1725015524468546, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524468715, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524468857, "dur":493, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524469352, "dur":708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524470062, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524470178, "dur":367, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524470546, "dur":892, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524471440, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524471753, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524471843, "dur":403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524472248, "dur":1341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Gilzoide.SqliteNet.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524473598, "dur":907, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524474506, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524474608, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524474689, "dur":1142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524475833, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524476268, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524476400, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524476490, "dur":721, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1725015524477278, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
-,{ "pid":12345, "tid":7, "ts":1725015524477391, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\PackageCache\\com.unity.burst@1.8.13\\.Runtime\\bcl.exe" }}
-,{ "pid":12345, "tid":7, "ts":1725015524468064, "dur":9424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":7, "ts":1725015524478031, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1725015524484601, "dur":3149533, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":7, "ts":1725015527637676, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524455989, "dur":6719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524463501, "dur":793, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524462711, "dur":1987, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524464699, "dur":3555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524468255, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1725015524585379, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524539544, "dur":45947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1725015524585598, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524585671, "dur":30897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524616685, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524616786, "dur":18404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524635267, "dur":1691, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524637019, "dur":62011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524699094, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524699256, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524702962, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524704285, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524704444, "dur":151, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524704606, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524705727, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524705849, "dur":14112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1725015524753535, "dur":12128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524720099, "dur":45597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1725015524765867, "dur":647, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524766518, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1725015524767687, "dur":11092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1725015524779303, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524779593, "dur":107, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524779712, "dur":12674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level9.resS" }}
-,{ "pid":12345, "tid":8, "ts":1725015524792461, "dur":1023, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524793516, "dur":34390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level4.resS" }}
-,{ "pid":12345, "tid":8, "ts":1725015524827995, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524828234, "dur":7303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level10.resS" }}
-,{ "pid":12345, "tid":8, "ts":1725015524835605, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1725015524835701, "dur":1350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1725015524837112, "dur":9376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1725015524846557, "dur":2792109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524456022, "dur":6693, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524462717, "dur":1454, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524464171, "dur":3887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524468070, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524589063, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/app.info" }}
-,{ "pid":12345, "tid":9, "ts":1725015524592275, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524592591, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524592666, "dur":6569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1725015524599342, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524599809, "dur":4931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1725015524604797, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524605341, "dur":26995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1725015524632485, "dur":1637, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524634150, "dur":75948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1725015524710161, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524710556, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1725015524737130, "dur":19842, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524714755, "dur":42229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":9, "ts":1725015524757184, "dur":36913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1725015524794180, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524794324, "dur":34270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level4" }}
-,{ "pid":12345, "tid":9, "ts":1725015524828650, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524829226, "dur":200, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1725015524829432, "dur":7912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level1.resS" }}
-,{ "pid":12345, "tid":9, "ts":1725015524837416, "dur":2801266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524456058, "dur":6663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524462724, "dur":1083, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524463807, "dur":4254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524468075, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":10, "ts":1725015524468064, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":10, "ts":1725015524468185, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524469489, "dur":7297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":10, "ts":1725015524476863, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":10, "ts":1725015524476861, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1725015524477395, "dur":4914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1725015524482377, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1725015524482542, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1725015524484227, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524484225, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524484719, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524489940, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":10, "ts":1725015524489939, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad.exe" }}
-,{ "pid":12345, "tid":10, "ts":1725015524490069, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad.exe" }}
-,{ "pid":12345, "tid":10, "ts":1725015524492801, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1725015524493054, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524516900, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524496174, "dur":20826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1725015524517134, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524521009, "dur":452, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524518671, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524521569, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524521981, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524524594, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524525927, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524526041, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524527447, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524527556, "dur":12160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524540055, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524540436, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524560517, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524540509, "dur":20126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524560745, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524587627, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524560830, "dur":26883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524587810, "dur":515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524592647, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524588557, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524592811, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524593089, "dur":6819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524599976, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524600150, "dur":40788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524641023, "dur":3301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524644335, "dur":93, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524830142, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524644439, "dur":185834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1725015524830353, "dur":575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1725015524830963, "dur":8816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":10, "ts":1725015524839852, "dur":2798826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524456088, "dur":6639, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524462730, "dur":908, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524463639, "dur":4423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524468074, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1725015524468064, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1725015524468214, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524471430, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1725015524475268, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1725015524476588, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1725015524478645, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1725015524481235, "dur":162, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524478906, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1725015524481539, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1725015524481537, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1725015524483857, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524481737, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1725015524484007, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1725015524484103, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524484660, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1725015524486044, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524486042, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524486260, "dur":13383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524501100, "dur":4508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524505839, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524510672, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524558705, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524511013, "dur":47766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524558912, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524559006, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524573465, "dur":173, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524559065, "dur":14586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524573833, "dur":534, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524634692, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524574374, "dur":60430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524634933, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524635024, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524635107, "dur":66051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524701288, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524782462, "dur":1000, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524701412, "dur":82063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1725015524783552, "dur":2300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524785879, "dur":43580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level6" }}
-,{ "pid":12345, "tid":11, "ts":1725015524829535, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524843911, "dur":204, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1725015524829609, "dur":14528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level0" }}
-,{ "pid":12345, "tid":11, "ts":1725015524844238, "dur":2794421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524456127, "dur":6606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524462733, "dur":5407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524468141, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1725015524512797, "dur":111, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524513157, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1725015524515641, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524515731, "dur":98765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524614694, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524679903, "dur":175, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524615217, "dur":64903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524680554, "dur":7065, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524691331, "dur":6411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524697841, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524698146, "dur":88, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524704413, "dur":150, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524698241, "dur":6371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524704957, "dur":821, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524705882, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524707898, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524711604, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.gilzoide.sqlite-net@f4a3ec1561\\Plugins\\lib\\windows\\x86_64\\gilzoide-sqlite-net.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524711602, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Plugins/x86_64/gilzoide-sqlite-net.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524711669, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524729482, "dur":27406, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524715256, "dur":41655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Plugins/x86_64/gilzoide-sqlite-net.dll" }}
-,{ "pid":12345, "tid":12, "ts":1725015524757012, "dur":1023, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524781973, "dur":676, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524758068, "dur":24593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":12, "ts":1725015524782809, "dur":2724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524785540, "dur":235, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524785778, "dur":41343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level7" }}
-,{ "pid":12345, "tid":12, "ts":1725015524827270, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1725015524827390, "dur":17484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level2.resS" }}
-,{ "pid":12345, "tid":12, "ts":1725015524844938, "dur":2793723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524456160, "dur":6581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524462742, "dur":5356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524468107, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":13, "ts":1725015524468098, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1725015524518040, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1725015524520060, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524523860, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524523953, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524525569, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524526880, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524530801, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524531184, "dur":12800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524544108, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524544207, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524603189, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524544273, "dur":58987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524603334, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524603412, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524607231, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524607451, "dur":32807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524640342, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524640452, "dur":59339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524699878, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524699976, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524703269, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524703619, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524705502, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524705585, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524708095, "dur":74753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1725015524782913, "dur":2620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524785541, "dur":190, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524785735, "dur":43309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level6.resS" }}
-,{ "pid":12345, "tid":13, "ts":1725015524829159, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524829407, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1725015524829466, "dur":16917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level0.resS" }}
-,{ "pid":12345, "tid":13, "ts":1725015524851141, "dur":2787616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524456188, "dur":6561, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524462749, "dur":5783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524468532, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1725015524542360, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1725015524545034, "dur":2809, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524547892, "dur":12159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524560115, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524574106, "dur":286, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524560250, "dur":14154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524574528, "dur":8221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524582811, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524583282, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524585176, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524585257, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524589333, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524589430, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524596002, "dur":810, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524596835, "dur":5388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524602280, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524602386, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524606087, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524606216, "dur":47144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524653427, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524653581, "dur":66362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1725015524720012, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524720113, "dur":7621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":14, "ts":1725015524754061, "dur":11629, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1725015524727875, "dur":37828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":14, "ts":1725015524765951, "dur":15032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":14, "ts":1725015524781106, "dur":71174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level9" }}
-,{ "pid":12345, "tid":14, "ts":1725015524852357, "dur":2786410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524456220, "dur":6537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524462757, "dur":5333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524468091, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1725015524541409, "dur":3695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1725015524545163, "dur":2620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524547847, "dur":12824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524574342, "dur":271, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524561220, "dur":13404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524574772, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Gilzoide.SqliteNet.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524578288, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524580436, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524580743, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524584796, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524584921, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524588721, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524593794, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524593932, "dur":5907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524599914, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524600157, "dur":5896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524606120, "dur":4931, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524611081, "dur":6776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524617991, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524618184, "dur":689, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524618878, "dur":21799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524640748, "dur":3201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524643983, "dur":140861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1725015524784934, "dur":566, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524785509, "dur":153, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1725015524785667, "dur":68451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level5.resS" }}
-,{ "pid":12345, "tid":15, "ts":1725015524854181, "dur":2784509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524455835, "dur":6836, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524462676, "dur":1184, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524462675, "dur":2215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524464891, "dur":3293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524468190, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1725015524468186, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1725015524593311, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524589548, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1725015524593495, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524593828, "dur":112, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524593944, "dur":8913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524602922, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524603072, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524607048, "dur":8624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524615740, "dur":1104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524632110, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524616861, "dur":15352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524632291, "dur":1169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524633489, "dur":58944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524692531, "dur":838, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524701631, "dur":238, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524693429, "dur":8452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524703346, "dur":6209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524709585, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524712297, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524712295, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524712427, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1725015524712718, "dur":133418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":16, "ts":1725015524846215, "dur":2792464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1725015527648607, "dur":1949, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1725015893194711, "dur":89, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015893194871, "dur":3142, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015893198023, "dur":964, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015893199049, "dur":463, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015893199538, "dur":5615, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015893205155, "dur":2918652, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015896123808, "dur":294, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015896124102, "dur":51, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015896124233, "dur":56, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015896124362, "dur":3769, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1725015893199474, "dur":5691, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1725015893205168, "dur":5753, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1725015893210947, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1725015893211069, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1725015893211202, "dur":8129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1725015893219333, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1725015893219536, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1725015893211068, "dur":8838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1725015893220238, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1725015893220932, "dur":372352, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1725015893598658, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1725015893598657, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1725015893598777, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1725015893599980, "dur":2523826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893199548, "dur":5633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893205183, "dur":1079, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":2, "ts":1725015893205183, "dur":2023, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893207207, "dur":3948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893211157, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1725015893211284, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893252100, "dur":6457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1725015893258638, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893258944, "dur":73770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1725015893332776, "dur":515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893333335, "dur":113460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1725015893446906, "dur":40257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1725015893518567, "dur":173, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893487296, "dur":31651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1725015893519062, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1725015893519159, "dur":27417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1725015893546710, "dur":2577214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893199512, "dur":5661, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893205853, "dur":832, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":3, "ts":1725015893205176, "dur":2055, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893207231, "dur":3877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893211117, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1725015893211110, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1725015893211207, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893243056, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1725015893245873, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893246071, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1725015893252152, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893252483, "dur":78632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1725015893331202, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893331299, "dur":299, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893450010, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1725015893331604, "dur":118474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1725015893450226, "dur":41536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1725015893491921, "dur":24886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level7.resS" }}
+,{ "pid":12345, "tid":3, "ts":1725015893516887, "dur":32136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level10.resS" }}
+,{ "pid":12345, "tid":3, "ts":1725015893549081, "dur":2574746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893199574, "dur":5614, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893205190, "dur":613, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1725015893205190, "dur":1706, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893206896, "dur":4385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893211289, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1725015893211282, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1725015893254044, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1725015893256058, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893256173, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1725015893261729, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893261882, "dur":7078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1725015893269096, "dur":9373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1725015893278528, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893323697, "dur":206, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893278837, "dur":45085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1725015893324009, "dur":2684, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1725015893326725, "dur":128643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1725015893455587, "dur":31542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1725015893487367, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1725015893489566, "dur":28432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1725015893518085, "dur":24107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1725015893542316, "dur":2581474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1725015893199599, "dur":5595, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1725015893205195, "dur":520, "ph":"X", "name": "File",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893205195, "dur":1552, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1725015893206748, "dur":4179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1725015893211392, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893211530, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893211616, "dur":457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893212075, "dur":709, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893212786, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893212897, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893213206, "dur":561, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893213769, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893214048, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893214134, "dur":315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893214451, "dur":291, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Gilzoide.SqliteNet.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893214743, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893214827, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893214989, "dur":1112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893216103, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893216196, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893216297, "dur":634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893216933, "dur":404, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893217339, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893217447, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893217551, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1725015893217933, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":5, "ts":1725015893218056, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Uni\\Semester 2 2024\\IGB200\\Assessment\\IGB200TortalSquad\\IGB200TortalSquad\\Library\\PackageCache\\com.unity.burst@1.8.13\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":5, "ts":1725015893210931, "dur":7226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":5, "ts":1725015893222618, "dur":2895400, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":5, "ts":1725015896122416, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1725015893199629, "dur":5569, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893205199, "dur":1346, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893206545, "dur":4835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893211380, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1725015893254685, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893254751, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1725015893258492, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1725015893265036, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893265109, "dur":9364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1725015893274526, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893274606, "dur":59572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1725015893334246, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893334512, "dur":83505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1725015893418084, "dur":2191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893430882, "dur":142, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893420317, "dur":10722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1725015893431114, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893451877, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1725015893431282, "dur":20673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1725015893452291, "dur":38328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1725015893490698, "dur":13100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level8.resS" }}
+,{ "pid":12345, "tid":6, "ts":1725015893503878, "dur":35791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1725015893539830, "dur":5437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1725015893545322, "dur":2578625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893199659, "dur":5544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893205685, "dur":1080, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893205206, "dur":2264, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893207470, "dur":3542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893211014, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1725015893211161, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893236164, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1725015893239883, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893239995, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893241824, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893242028, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893245692, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893249171, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893254965, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893249416, "dur":5615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893255158, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893255328, "dur":12740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893268120, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893275677, "dur":697, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893268303, "dur":8094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893276460, "dur":1084, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893277568, "dur":34144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893311803, "dur":1146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893312982, "dur":22086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893335120, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893335256, "dur":59986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893395334, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1725015893395851, "dur":36566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893432472, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.gilzoide.sqlite-net@f4a3ec1561\\Plugins\\lib\\windows\\x86_64\\gilzoide-sqlite-net.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893432470, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Plugins/x86_64/gilzoide-sqlite-net.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893433227, "dur":4776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Plugins/x86_64/gilzoide-sqlite-net.dll" }}
+,{ "pid":12345, "tid":7, "ts":1725015893438086, "dur":69229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1725015893507524, "dur":38621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1725015893546194, "dur":2577627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893199686, "dur":5523, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893205213, "dur":1761, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893206974, "dur":4236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893211212, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1725015893211302, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893237067, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1725015893238938, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893240447, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893240679, "dur":8778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893249513, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893249650, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893254503, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893254698, "dur":4285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893259035, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893259239, "dur":6956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893266297, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893266396, "dur":8403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893274854, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893274983, "dur":11528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893286567, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893287164, "dur":81426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893368671, "dur":1032, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893373761, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893369730, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893373896, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893374014, "dur":37507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893411584, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893412007, "dur":15229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893427296, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893427368, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893427586, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893427664, "dur":7359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1725015893435098, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":8, "ts":1725015893436827, "dur":10623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":8, "ts":1725015893447524, "dur":21560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1725015893469159, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1725015893469564, "dur":24387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1725015893494038, "dur":11936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level7" }}
+,{ "pid":12345, "tid":8, "ts":1725015893506048, "dur":28004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1725015893534130, "dur":11103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1725015893545297, "dur":2578633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893199714, "dur":5503, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893206322, "dur":520, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1725015893205220, "dur":1918, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893207138, "dur":4092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893211240, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1725015893211231, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1725015893211366, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893262888, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893253231, "dur":9734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1725015893266678, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893266864, "dur":106747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1725015893373718, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893373985, "dur":38686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1725015893412735, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893427543, "dur":163, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893412852, "dur":14866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1725015893427800, "dur":1996, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1725015893429820, "dur":6407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1725015893436417, "dur":9119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":9, "ts":1725015893445625, "dur":78073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":9, "ts":1725015893523853, "dur":20196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1725015893544102, "dur":2579834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893199758, "dur":5465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893205225, "dur":1801, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893207027, "dur":4211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893211240, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1725015893211322, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893253490, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893251309, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1725015893253646, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893253801, "dur":11116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893264987, "dur":671, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893265681, "dur":8917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893274681, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893274977, "dur":6036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893281086, "dur":4183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893291527, "dur":214, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893285297, "dur":6456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893291874, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893291945, "dur":90, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893292040, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893294542, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893296096, "dur":3260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893410338, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893299382, "dur":111397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893410875, "dur":490, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1725015893411394, "dur":76315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1725015893487798, "dur":15255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1725015893503235, "dur":29121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1725015893532434, "dur":13678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1725015893546167, "dur":2577665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893199787, "dur":5441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893205229, "dur":755, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893205984, "dur":4944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893210947, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1725015893210931, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1725015893215651, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893212030, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1725015893215816, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1725015893215814, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1725015893216278, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1725015893217639, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1725015893217770, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893217895, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1725015893219305, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1725015893219303, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1725015893219545, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1725015893221191, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1725015893222525, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1725015893226128, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893226211, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad.exe" }}
+,{ "pid":12345, "tid":11, "ts":1725015893227847, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893228578, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893232532, "dur":21706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893254310, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893254385, "dur":5385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Gilzoide.SqliteNet.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893259843, "dur":1300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893261168, "dur":5890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893267136, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893267225, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893269520, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893269841, "dur":9148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893279060, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893279147, "dur":144055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893423270, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893437897, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893423509, "dur":14482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1725015893459572, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1725015893438124, "dur":21534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1725015893459796, "dur":35368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1725015893495636, "dur":49788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level6.resS" }}
+,{ "pid":12345, "tid":11, "ts":1725015893545613, "dur":2578224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893199823, "dur":5410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893205234, "dur":5736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893210978, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1725015893210970, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1725015893211078, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893225778, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1725015893227507, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893228274, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893231558, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893233032, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893236476, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893235103, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893236776, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893239168, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893239242, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893241103, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893241384, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893243905, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893244138, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893244231, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893247515, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893247608, "dur":9786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893257458, "dur":785, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893258265, "dur":45227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893303553, "dur":1128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893304717, "dur":108662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893413445, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893413630, "dur":43983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1725015893457768, "dur":213, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1725015893457985, "dur":33244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1725015893491302, "dur":15920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level8" }}
+,{ "pid":12345, "tid":12, "ts":1725015893507360, "dur":26952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1725015893534394, "dur":11311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1725015893545777, "dur":2578119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893199845, "dur":5397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893205242, "dur":5720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893210963, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1725015893211078, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893218423, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1725015893220427, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1725015893220583, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1725015893222795, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893222794, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893222891, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893223341, "dur":3749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893227138, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1725015893227232, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893228064, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1725015893231868, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893233237, "dur":9224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893242630, "dur":548, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893243199, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893245359, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893246983, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893247319, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893250821, "dur":384, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893251222, "dur":7841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893331503, "dur":337, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893259177, "dur":72711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893331976, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893332075, "dur":97309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893429444, "dur":731, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893430201, "dur":26582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1725015893457235, "dur":21877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1725015893479202, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1725015893479328, "dur":22633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1725015893502080, "dur":25008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level5.resS" }}
+,{ "pid":12345, "tid":13, "ts":1725015893527169, "dur":14723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1725015893541963, "dur":2581830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893199872, "dur":5375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893205247, "dur":5678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893210936, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893211356, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893252519, "dur":9956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1725015893262481, "dur":590, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893263093, "dur":7956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1725015893271178, "dur":8487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1725015893279747, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893331079, "dur":487, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893279865, "dur":51714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1725015893331653, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893332085, "dur":40038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1725015893372489, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893372738, "dur":6182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1725015893378992, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893379148, "dur":33032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1725015893412241, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1725015893412501, "dur":46489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1725015893459099, "dur":56379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1725015893515631, "dur":36335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level2.resS" }}
+,{ "pid":12345, "tid":14, "ts":1725015893552114, "dur":2571696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893199902, "dur":5350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893205252, "dur":5678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893210931, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1725015893211182, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893232583, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893221786, "dur":10986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1725015893232967, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893233058, "dur":9645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893242758, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893242899, "dur":6670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893249848, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893250032, "dur":12773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893262868, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893263162, "dur":11137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893274359, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893274889, "dur":5521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893280473, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893305217, "dur":104, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893280653, "dur":24713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893305449, "dur":7505, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893312988, "dur":53696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893366759, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893366890, "dur":6885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893373842, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893374118, "dur":22667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893396852, "dur":6104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893402994, "dur":20921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893423982, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1725015893424203, "dur":10053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893434315, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893434313, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893434544, "dur":81507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1725015893516228, "dur":26020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1725015893542360, "dur":2581434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893199936, "dur":5321, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893205258, "dur":5671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893210942, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1725015893210931, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1725015893211071, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893213380, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1725015893215560, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1725015893217799, "dur":7643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1725015893225508, "dur":384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893225506, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893233447, "dur":7761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893241317, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893244122, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893244422, "dur":4310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893248799, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893248954, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893251640, "dur":672, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893252333, "dur":8990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893261404, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893267222, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893267444, "dur":7384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893274890, "dur":434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893275351, "dur":982, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893276337, "dur":10936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893290637, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893287395, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893290983, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893292351, "dur":550, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893292924, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893294518, "dur":136, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893294668, "dur":5253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893299990, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893300301, "dur":66276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893366652, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893366897, "dur":12266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893379297, "dur":876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893380200, "dur":42373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893422645, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893422738, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893429765, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893430203, "dur":118, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1725015893430326, "dur":58049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1725015893488449, "dur":11801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level9.resS" }}
+,{ "pid":12345, "tid":16, "ts":1725015893500335, "dur":40759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Uni/Semester 2 2024/IGB200/Assessment/Builds/Prototype2/IGB200TortalSquad_Data/level6" }}
+,{ "pid":12345, "tid":16, "ts":1725015893541149, "dur":2582642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1725015896132067, "dur":1342, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

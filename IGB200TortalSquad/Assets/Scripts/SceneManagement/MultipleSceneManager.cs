@@ -75,9 +75,9 @@ public class MultipleSceneManager : MonoBehaviour
             
         }
         Debug.LogWarning("loaded");
-        
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName(ScenesToLoad[0]));
         UnloadScenes();
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(ScenesToLoad[0]));
+        
         
         Debug.LogWarning(SceneManager.GetActiveScene().name);
     }
