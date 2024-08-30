@@ -60,15 +60,15 @@ public class MultipleSceneManager : MonoBehaviour
     {
         for (int i = 0; i < _scenesLoadQueue.Count; i++)
         {
-            _scenesLoadQueue[i].allowSceneActivation = false;
+            //_scenesLoadQueue[i].allowSceneActivation = false;
             while (!_scenesLoadQueue[i].isDone)
             {
                 Debug.LogWarning("waiting to load");
                 
-                if (_scenesLoadQueue[i].progress >= 0.9f)
-                {
-                    _scenesLoadQueue[i].allowSceneActivation = true;
-                }
+                // if (_scenesLoadQueue[i].progress >= 0.9f)
+                // {
+                //     _scenesLoadQueue[i].allowSceneActivation = true;
+                // }
                 
                 yield return null;
             }
