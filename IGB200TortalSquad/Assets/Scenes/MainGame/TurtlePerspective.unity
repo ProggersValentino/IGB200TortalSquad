@@ -1443,7 +1443,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteraction:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1647495845}
+        m_TargetAssemblyTypeName: MultipleSceneManager, Assembly-CSharp
+        m_MethodName: SetNewSceneAsActive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   wantsToGo: 0
   predeterminedLoco: {fileID: 331935250}
 --- !u!65 &1647495841
@@ -1542,9 +1554,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1647495839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bba81e65b49b664b9b6c42decea6c47, type: 3}
+  m_Script: {fileID: 11500000, guid: 19f98be12fc305242be3e3c01ee766db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  persistentScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 
+  ScenesToLoad:
+  - m_SceneAsset: {fileID: 102900000, guid: b37d00fe39ec05c41906e74d378dd2d1, type: 3}
+    m_SceneName: MiniGame1Ui
+  ScenesToUnload:
+  - m_SceneAsset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    m_SceneName: TurtlePerspective
 --- !u!1 &2045563373
 GameObject:
   m_ObjectHideFlags: 0
