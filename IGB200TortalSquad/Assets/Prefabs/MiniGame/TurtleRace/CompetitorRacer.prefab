@@ -25,13 +25,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202814003161711323}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0.8191521, z: 0.5735764, w: 0}
+  m_LocalPosition: {x: 0, y: 0.24, z: 0.31}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 359847545892579969}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -70, y: 180, z: 0}
 --- !u!212 &4340018920577471088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -73,9 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 24efefca9bf1e2a4ba67b56c6f6ea0f4, type: 3}
+  m_Color: {r: 0.8867924, g: 0.6672057, b: 0.26603764, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -140,8 +139,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.3086338, y: 1, z: 0.48872977}
-  m_Center: {x: -0.058249474, y: 0, z: -0.019099385}
+  m_Size: {x: 1.3086338, y: 1, z: 0.81518763}
+  m_Center: {x: -0.058249474, y: 0, z: 0.01507099}
 --- !u!114 &5447678592494605218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,7 +162,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 8779918376918156908}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 1.03
   m_Speed: 20
   m_Acceleration: 10
   avoidancePriority: 50

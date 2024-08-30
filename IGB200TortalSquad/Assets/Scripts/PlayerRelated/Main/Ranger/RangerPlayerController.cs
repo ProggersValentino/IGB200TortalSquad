@@ -9,16 +9,16 @@ public class RangerPlayerController : MonoBehaviour
 {
     public PlayerInput playerInput;
     private InputAction movement;
-    private Camera mainCam;
+    public Camera mainCam;
 
     public RangerNPC selectedNPC;
 
     //initial set up for when the player is enabled/ spawns in
     private void OnEnable()
     {
-        mainCam = FindObjectOfType<Camera>();
+        //mainCam = FindObjectOfType<Camera>();
+        
         movement = playerInput.actions["Movement"];
-
         movement.performed += GetClickPos;
     }
 
@@ -51,6 +51,9 @@ public class RangerPlayerController : MonoBehaviour
     /// <param name="context"></param>
     void GetClickPos(InputAction.CallbackContext context)
     {
+        
+        if(mainCam == null) return; //to prevent from spazzing out when transitioning to another scene
+        
         Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit hit;

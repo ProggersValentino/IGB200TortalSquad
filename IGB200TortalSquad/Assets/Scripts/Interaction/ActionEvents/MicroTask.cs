@@ -11,6 +11,8 @@ public class MicroTask : MonoBehaviour
 
     public float difficultyDecrease; //to determine how much difficulty that will be taken off when completing this task
 
+    public UnityEvent OnTaskComplete;
+    
     //this gets setup in the game manager
     public Action<float> ShiftDifficultyLevel; //when the task is completed we invoke this action to process how much the diffculty level should fall
     
@@ -35,13 +37,17 @@ public class MicroTask : MonoBehaviour
     public void ProcessTaskCompletion()
     {
         //decrease the difficulty level
-
+        
         float newDifLevel = SQLiteTest.PullDifficultyLevel(1) + difficultyDecrease;
         
         Debug.LogWarning($"our new diff level is {newDifLevel}");
         
         SQLiteTest.UpdateDifficultyLevel(1, newDifLevel);
-
+        
+        DifficultyEventSystem.OnUpdateDifficulty(); //updating after every task is done
+        
+        OnTaskComplete?.Invoke();
+        
         //destroy object 
         Destroy(gameObject);
     }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class TurtleRaceGameMan : MonoBehaviour
@@ -38,19 +39,18 @@ public class TurtleRaceGameMan : MonoBehaviour
     private void OnEnable()
     {
         FL.processEnd.AddListener(ProcessEndOfMinigame);
+        SceneManager.sceneLoaded += InitMinigameWhenSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= InitMinigameWhenSceneLoaded;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        SummonObstacles(obstaclePref);
-        SummonRacers(racer);
-        TimerEventManager.OnTimerStart();
         
-        
-        //yes = racer.AddComponent<SQLiteTest>();
-
-        SQLiteTest.pullFromDataBase("SELECT * FROM Stocks");
         
         //Debug.LogWarning(playerPlacement);
     }
@@ -59,6 +59,20 @@ public class TurtleRaceGameMan : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void InitMinigameWhenSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.LogWarning($"scene is laoded heeeeee {scene.name}");
+        
+        SummonObstacles(obstaclePref);
+        SummonRacers(racer);
+        TimerEventManager.OnTimerStart();
+        
+        
+        //yes = racer.AddComponent<SQLiteTest>();
+
+        //SQLiteTest.pullFromDataBase("SELECT * FROM Stocks");
     }
 
     /// <summary>
@@ -80,22 +94,30 @@ public class TurtleRaceGameMan : MonoBehaviour
     {
         int amountToSummon = DetermineObstacleCount();
         
+        Debug.Log("yes we are spawn obs");
+        
         for (int i = 0; i < amountToSummon; i++)
         {
             Vector3 randomPoint = new Vector3(Random.Range(startSpawnPoint.position.x, endSpawmPoint.position.x),
                 0.2f,
                 Random.Range(startSpawnPoint.position.z, endSpawmPoint.position.z));
 
-            Instantiate(obstaclePref, randomPoint, obstaclePref.transform.rotation);
+            GameObject ob = Instantiate(obstaclePref, randomPoint, obstaclePref.transform.rotation);
+            
+            ob.transform.SetParent(transform, true);
         }
     }
 
     public void SummonRacers(GameObject racerPref)
     {
+        Debug.Log("yes we are spawn racers");
+        
         foreach (Transform startingPos in startPos)
         {
             GameObject racer = Instantiate(racerPref, startingPos.transform.position, racerPref.transform.rotation);
 
+            racer.transform.SetParent(transform, true);
+            
             RacerAI AI = racer.GetComponent<RacerAI>();
 
             AI.SetAIDestination(goal);

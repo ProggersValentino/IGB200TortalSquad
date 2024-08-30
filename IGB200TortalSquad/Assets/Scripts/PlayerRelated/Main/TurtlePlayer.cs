@@ -1,14 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class TurtlePlayer : MonoBehaviour
 {
 
     public PlayerInput playerInput;
-    private InputAction movement;
+    public InputAction movement;
 
     public PlayerSO playerData;
 
@@ -23,31 +25,34 @@ public class TurtlePlayer : MonoBehaviour
     //have something for player data
 
     //initial set up for when the player is enabled/ spawns in
-    private void OnEnable()
-    {
-        mainCam = FindObjectOfType<Camera>();
-        movement = playerInput.actions["Movement"];
+     private void OnEnable()
+     {
+         mainCam = FindObjectOfType<Camera>();
+         //playerInput = gameObject.transform.parent.GetComponent<PlayerInput>();
+    
+         
+         
+     }
+     private void OnDisable()
+     {
+         mainCam = null;
+         movement.performed -= GetClickPos;
+     }
 
-        movement.performed += GetClickPos;
-    }
+     private void OnDestroy()
+     {
+         mainCam = null;
+         
+         movement.performed -= GetClickPos;
+     }
 
-    private void OnDestroy()
-    {
-        movement.performed -= GetClickPos;
-    }
-
-    private void OnDisable()
-    {
-        mainCam = null;
-        movement.performed -= GetClickPos;
-    }
-
-    private void Awake()
+     private void Awake()
     {
         playerData._lastPlayerLocoBeforeSceneChange = Vector3.zero;
-        playerInput = GetComponent<PlayerInput>();
-       
 
+        
+        
+        
       /*  movement = playerInput.actions["Movement"];
 
         movement.performed += GetClickPos;*/
@@ -56,7 +61,7 @@ public class TurtlePlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.LogWarning(gameObject.transform.parent.gameObject.name);
     }
 
     // Update is called once per frame
@@ -70,8 +75,10 @@ public class TurtlePlayer : MonoBehaviour
         }
     }
 
-    void GetClickPos(InputAction.CallbackContext context)
+    public void GetClickPos(InputAction.CallbackContext context)
     {
+        if(mainCam == null) return;
+        
         Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit hit;
