@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MultipleSceneManager : MonoBehaviour
 {
-    public SceneField persistentScene;
+    //public SceneField persistentScene;
     public List<SceneField> ScenesToLoad = new List<SceneField>();
     public List<SceneField> ScenesToUnload = new List<SceneField>();
     
@@ -51,11 +51,6 @@ public class MultipleSceneManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void LoadPersistentScene()
-    {
-        SceneManager.LoadSceneAsync(persistentScene, LoadSceneMode.Single);
-    }
-
     IEnumerator WaitUntilLoaded()
     {
         for (int i = 0; i < _scenesLoadQueue.Count; i++)
@@ -79,7 +74,7 @@ public class MultipleSceneManager : MonoBehaviour
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(ScenesToLoad[0]));
         
         
-        Debug.LogWarning(SceneManager.GetActiveScene().name);
+        //Debug.LogWarning(SceneManager.GetActiveScene().name);
     }
     
     public void SetNewSceneAsActive()

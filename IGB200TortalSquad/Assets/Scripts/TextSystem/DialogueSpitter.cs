@@ -110,7 +110,7 @@ public class DialogueSpitter : MonoBehaviour
                 if(dialogueIndex >= dialogueConversation.Count - 1)
                 {
                     DialogueEventSystem.OnStopDialogue();
-                    OnDialogueComplete?.Invoke();
+                    //OnDialogueComplete?.Invoke();
                     return;
                 }
                 

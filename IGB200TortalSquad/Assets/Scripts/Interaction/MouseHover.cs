@@ -16,6 +16,8 @@ public class MouseHover : MonoBehaviour
 
     GameObject player;
 
+    private bool hasClicked = false;
+    
     private void OnEnable()
     {
         //onInteraction.AddListener(stringSO.ChangeScene);
@@ -50,7 +52,9 @@ public class MouseHover : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (Vector3.Distance(other.gameObject.transform.position, predeterminedLoco.position) <= 0.5f) {
+            if (Vector3.Distance(other.gameObject.transform.position, predeterminedLoco.position) <= 0.5f && !hasClicked)
+            {
+                hasClicked = true;
                 onInteraction?.Invoke(); 
             }
         }

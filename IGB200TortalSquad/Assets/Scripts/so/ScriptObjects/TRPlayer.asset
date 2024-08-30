@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSprite: {fileID: 0}
   speedCooldown: 2
-  normalSpeed: 30
+  normalSpeed: 25
   slowedSpeed: 10
-  boostedSpeed: 50
-  currentSpeed: 1
+  boostedSpeed: 40

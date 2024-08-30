@@ -944,7 +944,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1530378169}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeLevel, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 2
@@ -1208,14 +1208,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1530378169}
-        m_TargetAssemblyTypeName: ChangeLevel, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 2
+      - m_Target: {fileID: 1761187832}
+        m_TargetAssemblyTypeName: MultipleSceneManager, Assembly-CSharp
+        m_MethodName: SetNewSceneAsActive
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: e102042dd9f2abd45b01e904faf17efa,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: SceneSO, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1506,50 +1505,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1530378166
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1530378168}
-  - component: {fileID: 1530378169}
-  m_Layer: 0
-  m_Name: SceneManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1530378168
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530378166}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 250.7603, y: 182.7886, z: 183.89395}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1530378169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530378166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bba81e65b49b664b9b6c42decea6c47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1534770875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,6 +1823,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1761187831}
+  - component: {fileID: 1761187832}
   m_Layer: 5
   m_Name: TitleScreen
   m_TagString: Untagged
@@ -1897,6 +1853,24 @@ RectTransform:
   m_AnchoredPosition: {x: -104.0556, y: -91.18729}
   m_SizeDelta: {x: 314.35483, y: 181.26178}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1761187832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761187830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f98be12fc305242be3e3c01ee766db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScenesToLoad:
+  - m_SceneAsset: {fileID: 102900000, guid: 0595b652b86b87e49a59fee2dc639a4d, type: 3}
+    m_SceneName: MiniGame1
+  ScenesToUnload:
+  - m_SceneAsset: {fileID: 102900000, guid: b37d00fe39ec05c41906e74d378dd2d1, type: 3}
+    m_SceneName: MiniGame1Ui
 --- !u!1 &2041372303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,14 +1954,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1530378169}
-        m_TargetAssemblyTypeName: ChangeLevel, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 2
+      - m_Target: {fileID: 1761187832}
+        m_TargetAssemblyTypeName: MultipleSceneManager, Assembly-CSharp
+        m_MethodName: SetNewSceneAsActive
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: e102042dd9f2abd45b01e904faf17efa,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: SceneSO, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2173,4 +2146,3 @@ SceneRoots:
   - {fileID: 1105645382}
   - {fileID: 1453807527}
   - {fileID: 46805558}
-  - {fileID: 1530378168}
