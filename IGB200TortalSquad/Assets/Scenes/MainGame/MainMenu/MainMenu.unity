@@ -2048,9 +2048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f98be12fc305242be3e3c01ee766db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persistentScene:
-    m_SceneAsset: {fileID: 102900000, guid: 3ac3f174f1854014398f5a8a0d46d81e, type: 3}
-    m_SceneName: Persistent
   ScenesToLoad:
   - m_SceneAsset: {fileID: 102900000, guid: 0f7fd4093af621048a51019d5c745ba6, type: 3}
     m_SceneName: DialogueTurtlePerspective
