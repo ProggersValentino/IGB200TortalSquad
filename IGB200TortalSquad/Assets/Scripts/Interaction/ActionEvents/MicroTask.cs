@@ -13,9 +13,7 @@ public class MicroTask : MonoBehaviour
 
     public UnityEvent OnTaskComplete;
     
-    //this gets setup in the game manager
-    public Action<float> ShiftDifficultyLevel; //when the task is completed we invoke this action to process how much the diffculty level should fall
-    
+   
     // Start is called before the first frame update
     void Start()
     {

@@ -4,11 +4,13 @@ using System.Runtime.InteropServices;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Interactions;
 
 public class RangerPlayerController : MonoBehaviour
 {
     public PlayerInput playerInput;
     private InputAction movement;
+    private InputAction paneCam;
     public Camera mainCam;
 
     public RangerNPC selectedNPC;
@@ -19,7 +21,9 @@ public class RangerPlayerController : MonoBehaviour
         //mainCam = FindObjectOfType<Camera>();
         
         movement = playerInput.actions["Movement"];
+        paneCam = playerInput.actions["PaneCamera"];
         movement.performed += GetClickPos;
+        paneCam.performed += OnPan;
     }
 
     private void OnDestroy()
@@ -31,6 +35,7 @@ public class RangerPlayerController : MonoBehaviour
     {
         mainCam = null;
         movement.performed -= GetClickPos;
+        paneCam.performed -= OnPan;
     }
 
     // Start is called before the first frame update
@@ -77,6 +82,12 @@ public class RangerPlayerController : MonoBehaviour
                     break;
             }
         }
-
+        
+    }
+    
+    void OnPan(InputAction.CallbackContext context)
+    {
+        if(context.interaction is HoldInteraction)
+            Debug.LogWarning("yes");
     }
 }
