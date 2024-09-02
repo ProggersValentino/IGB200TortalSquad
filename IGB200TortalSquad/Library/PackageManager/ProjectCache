@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638591139907908808
-    m_Hash: 1035862957
+      ticks: 638606828115502720
+    m_Hash: 80481825
   m_LockFileStatus:
     m_FilePath: C:/Uni/Semester 2 2024/IGB200/Assessment/IGB200TortalSquad/IGB200TortalSquad/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638591139907933118
-    m_Hash: 215394228
+      ticks: 638606828115542709
+    m_Hash: 1277194483
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,60 @@ m_LocalPackages:
 m_ProjectPath: C:/Uni/Semester 2 2024/IGB200/Assessment/IGB200TortalSquad/IGB200TortalSquad/Packages
 m_EditorVersion: 2022.3.30f1 (70558241b701)
 m_ResolvedPackages:
+- packageId: com.gilzoide.sqlite-net@https://github.com/gilzoide/unity-sqlite-net.git#1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 5
+  resolvedPath: C:\Uni\Semester 2 2024\IGB200\Assessment\IGB200TortalSquad\IGB200TortalSquad\Library\PackageCache\com.gilzoide.sqlite-net@f4a3ec1561
+  assetPath: Packages/com.gilzoide.sqlite-net
+  name: com.gilzoide.sqlite-net
+  displayName: SQLite-net
+  author:
+    name: Gil Barbosa Reis
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SQLite-net for Unity, supports Windows, Linux, macOS, iOS, tvOS, visionOS,
+    Android and WebGL
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -116,6 +170,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.4
     - 2.0.0
     - 2.0.3
+    - 2.0.4
     compatible:
     - 1.1.5
     recommended: 1.1.5
@@ -1467,18 +1522,18 @@ m_ResolvedPackages:
     recommended: 1.7.6
     deprecated: []
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
