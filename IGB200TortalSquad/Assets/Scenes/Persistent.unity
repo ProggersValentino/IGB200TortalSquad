@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c065bd587b04849aeaebb5fd28ac77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTillNextIncrease: 5
+  timeTillNextIncrease: 2
   difficultyLevelIncreaseValue: 5
 --- !u!4 &181424730
 Transform:
