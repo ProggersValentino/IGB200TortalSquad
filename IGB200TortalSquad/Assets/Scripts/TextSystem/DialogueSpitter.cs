@@ -85,7 +85,6 @@ public class DialogueSpitter : MonoBehaviour
             // dialogueKnowledgeBase = dialogueKnowledgeBase.Concat(temp).ToDictionary(x => x.Key, x => x.Value);
         }
     }
-
     /// <summary>
     /// everytime we click we do an action related to the dialogue
     /// </summary>
