@@ -172,9 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f98be12fc305242be3e3c01ee766db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persistentScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
   ScenesToLoad:
   - m_SceneAsset: {fileID: 102900000, guid: f372b156821db6c4783d5234b344c38d, type: 3}
     m_SceneName: RangerPerspective
@@ -1558,9 +1555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f98be12fc305242be3e3c01ee766db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persistentScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
   ScenesToLoad:
   - m_SceneAsset: {fileID: 102900000, guid: b37d00fe39ec05c41906e74d378dd2d1, type: 3}
     m_SceneName: MiniGame1Ui

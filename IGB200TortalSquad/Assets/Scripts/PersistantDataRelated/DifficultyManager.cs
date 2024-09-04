@@ -37,15 +37,20 @@ public class DifficultyManager : MonoBehaviour
                 SQLiteTest.UpdateDifficultyLevel(1, 100f);
                 DifficultyEventSystem.OnUpdateDifficulty();
                 yield return new WaitForSeconds(timeTillNextIncrease);    
-            } 
-            yield return new WaitForSeconds(timeTillNextIncrease);
-
-            float newDiffLevel = SQLiteTest.PullDifficultyLevel(1) + difficultyLevelIncreaseValue;
+            }
+            else
+            {
+                float newDiffLevel = SQLiteTest.PullDifficultyLevel(1) + difficultyLevelIncreaseValue;
             
-            Debug.LogWarning($"our new diff level is {newDiffLevel}");
+                Debug.LogWarning($"our new diff level is {newDiffLevel}");
             
-            SQLiteTest.UpdateDifficultyLevel(1, newDiffLevel);
-            DifficultyEventSystem.OnUpdateDifficulty();
+                ActionsEventSystem.OnInitiateInjection(Random.Range(1, 2));
+            
+                SQLiteTest.UpdateDifficultyLevel(1, newDiffLevel);
+                DifficultyEventSystem.OnUpdateDifficulty();
+                yield return new WaitForSeconds(timeTillNextIncrease);    
+            }
+            
         }
     }
 }

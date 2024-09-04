@@ -12,7 +12,8 @@ public class MicroTask : MonoBehaviour
     public float difficultyDecrease; //to determine how much difficulty that will be taken off when completing this task
 
     public UnityEvent OnTaskComplete;
-    
+
+    public string UID;
    
     // Start is called before the first frame update
     void Start()
@@ -45,7 +46,7 @@ public class MicroTask : MonoBehaviour
         DifficultyEventSystem.OnUpdateDifficulty(); //updating after every task is done
         
         OnTaskComplete?.Invoke();
-        
+        ActionsEventSystem.OnDeleteFromPersistent(UID);
         //destroy object 
         Destroy(gameObject);
     }

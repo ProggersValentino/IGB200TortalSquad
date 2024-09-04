@@ -19,6 +19,8 @@ public class Tutorial : MonoBehaviour
     public UnityEvent OnClickToMove;
     
     private bool hasMoved = false;
+
+    public List<GameObject> goToEnable;
     
     private void Awake()
     {
@@ -63,4 +65,5 @@ public class Tutorial : MonoBehaviour
             hasMoved = true;
         }
     }
+    
 }

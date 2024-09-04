@@ -393,6 +393,7 @@ MonoBehaviour:
   OnClickToMove:
     m_PersistentCalls:
       m_Calls: []
+  goToEnable: []
 --- !u!114 &199635435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,12 +1654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f98be12fc305242be3e3c01ee766db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persistentScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
   ScenesToLoad:
-  - m_SceneAsset: {fileID: 102900000, guid: 0f7fd4093af621048a51019d5c745ba6, type: 3}
-    m_SceneName: DialogueTurtlePerspective
+  - m_SceneAsset: {fileID: 102900000, guid: 7c27ac9bb9ced9e4f8c9ecb81e4a35cf, type: 3}
+    m_SceneName: DialogueTurtlePerspectiveRevealed
   ScenesToUnload:
   - m_SceneAsset: {fileID: 102900000, guid: 88b064e6561b0b04f95d51a1a30e4f84, type: 3}
     m_SceneName: TutorialRangerPerspective

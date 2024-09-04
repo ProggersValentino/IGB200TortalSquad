@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c065bd587b04849aeaebb5fd28ac77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTillNextIncrease: 2
+  timeTillNextIncrease: 5
   difficultyLevelIncreaseValue: 5
 --- !u!4 &181424730
 Transform:
@@ -168,6 +168,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &928219229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928219230}
+  - component: {fileID: 928219231}
+  m_Layer: 0
+  m_Name: RangerActionsMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928219230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928219229}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928219231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928219229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f3ec92932a9f04ba09583a614277d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfMicroTasksAllowed: 10
+  normalAction: {fileID: 7148466029282600895, guid: 792b5d5401f04f146950448fe5edb722,
+    type: 3}
+  test: []
+  testString: []
 --- !u!1 &1990913507
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,3 +276,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1990913509}
   - {fileID: 181424730}
+  - {fileID: 928219230}

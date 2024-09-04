@@ -333,50 +333,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152207433}
   m_CullTransparentMesh: 1
---- !u!1 &182814255
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 182814256}
-  - component: {fileID: 182814257}
-  m_Layer: 0
-  m_Name: SceneManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &182814256
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182814255}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889750894}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &182814257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182814255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bba81e65b49b664b9b6c42decea6c47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &222806112
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,14 +661,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 182814257}
-        m_TargetAssemblyTypeName: ChangeLevel, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 2
+      - m_Target: {fileID: 1278596202}
+        m_TargetAssemblyTypeName: MultipleSceneManager, Assembly-CSharp
+        m_MethodName: SetNewSceneAsActive
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 7e2419730410a9a458794bc8abb977d0,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: SceneSO, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1188,7 +1143,6 @@ Transform:
   - {fileID: 1475417167}
   - {fileID: 1042472046}
   - {fileID: 1278596198}
-  - {fileID: 182814256}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &889750895
@@ -1833,6 +1787,7 @@ GameObject:
   - component: {fileID: 1278596201}
   - component: {fileID: 1278596200}
   - component: {fileID: 1278596199}
+  - component: {fileID: 1278596202}
   m_Layer: 0
   m_Name: MiniGameEndScreen
   m_TagString: Untagged
@@ -1924,6 +1879,24 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1278596202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278596197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f98be12fc305242be3e3c01ee766db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScenesToLoad:
+  - m_SceneAsset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    m_SceneName: TurtlePerspective
+  ScenesToUnload:
+  - m_SceneAsset: {fileID: 102900000, guid: 0595b652b86b87e49a59fee2dc639a4d, type: 3}
+    m_SceneName: MiniGame1
 --- !u!1 &1345968732
 GameObject:
   m_ObjectHideFlags: 0
