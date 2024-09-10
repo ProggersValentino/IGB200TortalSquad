@@ -37,6 +37,7 @@ public class pausemenu : MonoBehaviour
 
     public void LoadMenu(){
         Debug.Log ("loading menu...");
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
